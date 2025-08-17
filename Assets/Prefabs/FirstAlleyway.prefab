@@ -33,12 +33,12 @@ Transform:
   - {fileID: 9201422282638667019}
   - {fileID: 3436333430836700703}
   - {fileID: 2038533830997704097}
-  - {fileID: 9138663108198502029}
   - {fileID: 5117794922952504653}
   - {fileID: 8447403804167072709}
   - {fileID: 4809931464512028259}
   - {fileID: 2660396703654706986}
   - {fileID: 8394658093221888697}
+  - {fileID: 2219264142561868948}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &314046638002005152
@@ -337,6 +337,69 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 710212961702788328}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2219264142562256406
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8439059870616353887}
+    m_Modifications:
+    - target: {fileID: 100002, guid: f166f60cc0fa7d344b41aa4d7a0c6cd7, type: 3}
+      propertyPath: m_Name
+      value: Catwalk Stairs Wide
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f166f60cc0fa7d344b41aa4d7a0c6cd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.676657
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f166f60cc0fa7d344b41aa4d7a0c6cd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -20.920166
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f166f60cc0fa7d344b41aa4d7a0c6cd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30.033325
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f166f60cc0fa7d344b41aa4d7a0c6cd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f166f60cc0fa7d344b41aa4d7a0c6cd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f166f60cc0fa7d344b41aa4d7a0c6cd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f166f60cc0fa7d344b41aa4d7a0c6cd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f166f60cc0fa7d344b41aa4d7a0c6cd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f166f60cc0fa7d344b41aa4d7a0c6cd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f166f60cc0fa7d344b41aa4d7a0c6cd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f166f60cc0fa7d344b41aa4d7a0c6cd7, type: 3}
+--- !u!4 &2219264142561868948 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400002, guid: f166f60cc0fa7d344b41aa4d7a0c6cd7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2219264142562256406}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3512250488781598547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -410,80 +473,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8250113047921840432, guid: b76f846b3379607468a593969b575654,
     type: 3}
   m_PrefabInstance: {fileID: 3512250488781598547}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &3615279005747688285
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 8439059870616353887}
-    m_Modifications:
-    - target: {fileID: 5548154041111978480, guid: 63d248e67db58c04aa37512e19848568,
-        type: 3}
-      propertyPath: m_Name
-      value: CatWalk Stairs Wide
-      objectReference: {fileID: 0}
-    - target: {fileID: 5548154041112411600, guid: 63d248e67db58c04aa37512e19848568,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9.676657
-      objectReference: {fileID: 0}
-    - target: {fileID: 5548154041112411600, guid: 63d248e67db58c04aa37512e19848568,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -20.920166
-      objectReference: {fileID: 0}
-    - target: {fileID: 5548154041112411600, guid: 63d248e67db58c04aa37512e19848568,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -30.033325
-      objectReference: {fileID: 0}
-    - target: {fileID: 5548154041112411600, guid: 63d248e67db58c04aa37512e19848568,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.70710784
-      objectReference: {fileID: 0}
-    - target: {fileID: 5548154041112411600, guid: 63d248e67db58c04aa37512e19848568,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5548154041112411600, guid: 63d248e67db58c04aa37512e19848568,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.70710576
-      objectReference: {fileID: 0}
-    - target: {fileID: 5548154041112411600, guid: 63d248e67db58c04aa37512e19848568,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5548154041112411600, guid: 63d248e67db58c04aa37512e19848568,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5548154041112411600, guid: 63d248e67db58c04aa37512e19848568,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90.00001
-      objectReference: {fileID: 0}
-    - target: {fileID: 5548154041112411600, guid: 63d248e67db58c04aa37512e19848568,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 63d248e67db58c04aa37512e19848568, type: 3}
---- !u!4 &9138663108198502029 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5548154041112411600, guid: 63d248e67db58c04aa37512e19848568,
-    type: 3}
-  m_PrefabInstance: {fileID: 3615279005747688285}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3852905651752920189
 PrefabInstance:
